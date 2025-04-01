@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: linear-gradient(#87CEEB, #E0F7FA);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+canvas {
+    cursor: pointer;
+}
+
+#text-container {
+    position: fixed;
+    bottom: 25%;
+    text-align: center;
+    width: 100%;
+    font-size: 2.5em;
+    color: #4a4a4a;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
